@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es"> idioma
+<head>
+    <meta charset="UTF-8"> este set de caracteres permite utilizar tildes y ñ
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> parte de la familia chromium
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

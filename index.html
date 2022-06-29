@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento HTML</title>
+</head>
+
+<body>
+    <h1>Titulo h1</h1>
+    <h2>Titulo h2</h2>
+    <h3>Titulo h3</h3>
+    <h4>Titulo h4</h4>
+    <h5>Titulo h5</h5>
+    <h6>Titulo h6</h6>
+    <!-- salto de linea-->
+    <br>
+    <!-- linea horizontal-->
+    <hr>
+
+    <!-- Parrafos, se ajusta a la pagina y para trabajar con texto, tambien es de bloque-->
+    <p>
+        Brussels <b>Heart of Chocolate</b>. <i>Providencia</i> <u>Santa Magdalena</u> 168, Local 102, Providencia, Santiago +56 22 857 0635. Las Condes Linneo 6575, Local 5, Las Condes
+    </p>
+
+    <p>
+        <b><u><i>Catalina Castillo</i></u></b>
+    </p>
+
+    <!-- imagenes -->
+    <img src="" alt="aqui habia algo">
+    <img src="/HTML/assets/img/imgHtml.png" alt="icono html" width="100px" height="100px">
+    <!--Al agregar solo width o height, la imagen mantendra la proporcion-->
+    <!-- Buenas practicas tener alt, dentro de assets: carpeta img para imagenes, css ,js -->
+    <img src="/HTML/assets/img/53j.png" alt="iconos html5 css3 y javascript" width="200px">
+    <br>
+    <hr>
+
+    <!-- Links o hipervinculos -->
+    <a href="https://www.generation.org/">Visitar Generation</a>
+    <br>
+    <!-- url valor absoluto, redirige a otra pagina web -->
+    <a href="https://www.lun.com/">Acceder a Lun.com</a>
+    <br>
+    <!-- url de valor relativo, redirije dentro del mism sistema web -->
+    <a href="pagina2.html">Ir a la pagina 2</a>
+    <br>
+    <!-- url valor de anclaje, movernos dentro de la misma pagina. ejem: subir o bajar a las secciones -->
+    <a href="#nombre">ir a seccion de la pagina</a>
+
+
+    <!-- listas ordenadas-->
+    <ol>
+        <li>prueba</li>
+
+    </ol>
+
+
+    <!-- lista no ordenada-->
+    <ul>
+        <li>grupo 1</li>
+        <li>grupo 2</li>
+        <li>grupo 3</li>
+        <li>grupo 4</li>
+        <li>grupo 5</li>
+        <li>grupo 6</li>
+        <li> grupo 7
+            <ul>
+                <li>grupo 7.1</li>
+                <li>grupo 7.2</li>
+                <li>
+                    <ul>
+                        <li>curso a</li>
+                        <li>curso b</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!--<ul> se puede hacer de forma dinamica, pero hay que usar javascrip
+        <c:foreach...
+    </ul>-->
+    <br>
+    <hr>
+    <!--Tablas, enla cabeza de la tabla, solo hay una fila-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cata</td>
+                <td>castillo</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <a href="CV.html">Mi curriculum Vitae</a>
+    <br>
+    <a href="pagina2.html">A pagina 2</a>
+    <br>
+    <hr>
+
+</body>
+
+</html>
